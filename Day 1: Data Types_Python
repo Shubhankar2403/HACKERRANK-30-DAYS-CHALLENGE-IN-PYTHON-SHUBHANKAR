@@ -1,0 +1,16 @@
+i = 4
+d = 4.0
+s = 'HackerRank '
+def day1_problem():# Declare second integer, double, and String variables.
+
+    integer = input()
+    double = input()
+    string_1 = input()
+
+    sum_int = int(integer) + i
+    double_d = float(double) + d
+    sentence = s + '' + str(string_1)
+    
+    print('{0}\n{1:0.1f}\n{2}'.format(sum_int, double_d, sentence))
+    
+day1_problem()
