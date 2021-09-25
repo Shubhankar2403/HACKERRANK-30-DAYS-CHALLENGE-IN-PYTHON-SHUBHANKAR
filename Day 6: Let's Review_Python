@@ -1,0 +1,11 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+def mixed_word(word):
+    even_word = word[::2] 
+    odd_word = word[1::2] 
+    return'{0} {1}'.format(even_word, odd_word) 
+
+def full_input():
+    for i in range(int(input().strip())): 
+        print(mixed_word(input().strip())) 
+        
+full_input()
